@@ -20,7 +20,7 @@ export default function Footer() {
 
             <div className=' flex items-center justify-between mt-7'>
                 <img src={logo} alt="ogo iage" className=' h-12' />
-                <p className=' text-amber-400 font-medium'>All credit goes to @Notex</p>
+                <p className=' text-amber-400 font-medium'>All credit goes to @JoyPaul</p>
             </div>
         </div>
     )
