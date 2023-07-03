@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+body::-webkit-scrollbar,
+.sco::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar-track,
+.sco::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0.452); /* color of the tracking area */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::-webkit-scrollbar-thumb,
+.sco::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 94, 0, 0.395);
+  border-radius: 20px;
 }
