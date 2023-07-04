@@ -3,7 +3,7 @@ import React from 'react'
 // Image import
 import logo from '../assect/logo.png'
 
-export default function Navbar() {
+export default function Navbar({ setBgImage }) {
     return (
         <div className=' flex items-center justify-between pt-4  text-amber-400'>
             <img src={logo} alt="logo image" className=' h-12' />

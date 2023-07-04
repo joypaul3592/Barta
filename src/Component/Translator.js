@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 import { MdOutlineCompareArrows } from "react-icons/md";
 
 const Translator = () => {
-    const [from, setFrom] = useState("en"); // Set 'en' as the initial value
-    const [to, setTo] = useState("ar"); // Set 'ar' as the initial value
+    const [from, setFrom] = useState("en");
+    const [to, setTo] = useState("ar");
     const [input, setInput] = useState("");
     const [output, setOutput] = useState("");
     const [options, setOptions] = useState([]);
