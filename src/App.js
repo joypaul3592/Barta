@@ -1,13 +1,10 @@
-import './App.css';
-import Tmain from './Component/Translator/Tmain';
+import React from "react";
+import Main from "./Component/BartaMain/Main";
 
-
-function App() {
+export default function App() {
   return (
     <div>
-      <Tmain />
+      <Main />
     </div>
   );
 }
-
-export default App;
